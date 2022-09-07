@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "kN/RYj4gfp267s+Pr7/fnLDN5rzqV3Gs1tVpdk3w+8OrsHrCmQDjJa6L7o2ZfNkLSovwSPz0BOFdMWm0nmJnwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\niil02\\Documents\\git\\tutorials\\asp-net-web-api\\TrackingAPI\\Tracking-api\\Tracking-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\niil02\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
