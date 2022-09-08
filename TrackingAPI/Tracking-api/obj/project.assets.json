@@ -2232,9 +2232,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\niil02\\Documents\\git\\tutorials\\asp-net-web-api\\TrackingAPI\\Tracking-api\\Tracking-api.csproj",
-      "projectName": "Tracking-api",
-      "projectPath": "C:\\Users\\niil02\\Documents\\git\\tutorials\\asp-net-web-api\\TrackingAPI\\Tracking-api\\Tracking-api.csproj",
+      "projectUniqueName": "C:\\Users\\niil02\\Documents\\git\\tutorials\\asp-net-web-api\\TrackingAPI\\Tracking-api\\Tracking-web-api.csproj",
+      "projectName": "Tracking-web-api",
+      "projectPath": "C:\\Users\\niil02\\Documents\\git\\tutorials\\asp-net-web-api\\TrackingAPI\\Tracking-api\\Tracking-web-api.csproj",
       "packagesPath": "C:\\Users\\niil02\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\niil02\\Documents\\git\\tutorials\\asp-net-web-api\\TrackingAPI\\Tracking-api\\obj\\",
       "projectStyle": "PackageReference",
