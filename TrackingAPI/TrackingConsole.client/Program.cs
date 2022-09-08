@@ -3,6 +3,8 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using TrackingConsole.client;
 
+/* Before start make sure TrackingAPI solution has both projects set as Startup projects and in the right order! Web API -> Console Client (Sln -> RMC -> Set startup projects... -> Multiple startup projects, both wit Action: Start) */
+
 HttpClient client = new();  // HttpClient cls is used in .Net to make HTTP requests and comes with built-in methods for this
 
 client.BaseAddress = new Uri("https://localhost:7070");  // sets as a base URL for HTTP reqs the url of the Web API project(located in Properties/launchSettings.json -> Profiles/Tracking_api)
