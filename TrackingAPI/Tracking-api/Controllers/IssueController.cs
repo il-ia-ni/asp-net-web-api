@@ -6,7 +6,7 @@ using Tracking_api.Models;
 
 namespace Tracking_api.Controllers
 // Added by: RMC on Controllers folder -> Add -> Controller -> Common/API/ -> API COntroller empty
-// Controller-based classes contain actions that process certain requests. 
+// Controller-based classes contain Endpoints: actions that process certain requests. 
 
 {
     [Route("api/[controller]")]  // maps requests to actions, can be applied at controller- or action-level
@@ -42,6 +42,7 @@ namespace Tracking_api.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> Create(Issue issue)
         /* an async handler action for POST requests to the Issues table to create a new instance in the table
+         * Any issues (req fields missing, dtype etc. are handled by the model automatically!
          * Returns a CreatedAtAction obj upon successful updates of the DB table */
         {
             await _context.Issues.AddAsync(issue);  // adds a new instance to the Issues table of the DB
@@ -60,7 +61,7 @@ namespace Tracking_api.Controllers
         public async Task<IActionResult> Update(int id, Issue issue)
         /* an async handler action for PUT requests to the Issues table to update an existing instance
          * params:
-         *  id - cound to the url of the api
+         *  id - bound to the url of the api
          *  issue - bound to the body of the HTTP request
          * Returns NoContent obj with the responce code 204 in case of successful update  */
         {
@@ -70,6 +71,24 @@ namespace Tracking_api.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();  // returns a 204 status code response with no data in the body
+        }
+
+        [HttpDelete("{id}")]  // attr specifies that id placeholder is in the url
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> Delete(int id)
+        /* an async handler action for DELETE requests to the Issues table to erase an existing instance
+         * params:
+         *  id - bound to the url of the api
+         * Returns NoContent obj with the responce code 204 in case of successful delete  */
+        {
+            var issueToDelete = await _context.Issues.FindAsync(id);  // initial check that the issue exists in the table
+            if (issueToDelete == null) return NotFound();  // return 404 if the issue doesn't exist
+
+            _context.Issues.Remove(issueToDelete);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
     }
