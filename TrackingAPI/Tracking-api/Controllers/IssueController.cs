@@ -38,5 +38,20 @@ namespace Tracking_api.Controllers
 
         }
 
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        public async Task<IActionResult> Create(Issue issue)
+        /* an async handler action for POST requests to the Issues table
+         * Returns a CreatedAtAction obj upon successful updates of the DB table */
+        {
+            await _context.Issues.AddAsync(issue);  // adds a new instance to the Issues table of the DB
+            await _context.SaveChangesAsync();  // propagates changes to be saved in the DB
+
+            return CreatedAtAction(nameof(GetById), new { id = issue.Id }, issue);  // CreatedAtAction returns a response code and the location. Params:
+                                                                                    // nameof: name of the action that returns a single instance from the DB
+                                                                                    // anonymous obj for the id of the single instance
+                                                                                    // the single instance itself
+        }
+
     }
 }
