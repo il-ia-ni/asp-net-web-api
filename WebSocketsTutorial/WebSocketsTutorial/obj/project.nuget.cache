@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "IJLSS+g5rRexCUk07NHJMNF8uq3DvbIvlLTFvPAFcCoht5WJSab0ouuRAsfr/jGQJP15IOOuU/b8y9MPzgDefw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\niil02\\Documents\\git\\tutorials\\asp-net-web-api\\WebSocketsTutorial\\WebSocketsTutorial\\WebSocketsTutorial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\niil02\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\niil02\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
