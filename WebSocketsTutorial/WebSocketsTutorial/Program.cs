@@ -14,7 +14,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.UseWebSockets();  // In Tutorial Startup.cs file is referenced for this
+    app.UseWebSockets();  // In Tutorial Startup.cs file is referenced for this. Sends Upgrade to WebSocket conntection requests when sending HTTPs GET request 
 }
 
 app.UseHttpsRedirection();

@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 namespace WebSocketsTutorial.Controllers
 {
     [ApiController]
-    [Route("[controller")]
+    [Route("[controller]")]
     public class WebSocketsController : Controller
     {
         private readonly ILogger<WebSocketsController> _logger;
