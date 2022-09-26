@@ -14,6 +14,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseWebSockets();  // In Tutorial Startup.cs file is referenced for this
 }
 
 app.UseHttpsRedirection();
