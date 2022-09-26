@@ -25,3 +25,10 @@ C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSo
 C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\obj\Debug\net6.0\WebSocketsTutorial.pdb
 C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\obj\Debug\net6.0\WebSocketsTutorial.genruntimeconfig.cache
 C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\obj\Debug\net6.0\ref\WebSocketsTutorial.dll
+C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\bin\Debug\net6.0\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\bin\Debug\net6.0\Microsoft.Owin.dll
+C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\niil02\Documents\git\tutorials\asp-net-web-api\WebSocketsTutorial\WebSocketsTutorial\bin\Debug\net6.0\Owin.dll
